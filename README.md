@@ -8,7 +8,10 @@
 - code to find the IDs of different april tags
 
 ## sensor_code directory contains:
-- combined code to get rpm of the rotating disc and the accereration information (translational/rotational) from the IMU
+- combined code to get rpm of the rotating disc and the acceleration information (translational/rotational) from the IMU
 - pinout diagrams for all components
 - usage and setup instructions
 - wiring instructions
+
+## Author
+Andrea Rodriguez

@@ -1,0 +1,15 @@
+<launch>
+
+  <!-- loading the HSV and kernel params from the yaml file -->
+  <rosparam file="$(find realsense_tracker)/config/params.yaml" command="load"/>
+
+  <!-- launching the tracker -->
+  <node
+      name="realsense_tracker"
+      pkg="realsense_tracker"
+      type="tracker.py"
+      output="screen"
+  />
+
+</launch>
+
